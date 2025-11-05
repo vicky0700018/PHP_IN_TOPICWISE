@@ -1,13 +1,32 @@
 <?php
-$car = array(
-    "A" => "car1",
-    "B" => "car2",
-    "C" => "car3",
-    "D" => "car4",
-    "E" => "car5",
-    "F" => "car6",
+$x = array(
+    "car1",
+    "car2",
+    "car3",
+    "car4",
+    "car5",
+    "car6",
 );
-$x = 5;
+echo "<pre>";
+print_r($x);
+echo "</pre>";
+$y = array(
+    "car7",
+    "car8",
+    "car9",
+    "car10",
+    "car11",
+    "car12",
+);
+echo "<pre>";
+print_r($y);
+echo "</pre>";
+
+$z= array_merge($x,$y);
+echo "<pre>";
+print_r($z);
+echo "</pre>";
+// $x = 5;
 // if (is_array($car)) {
 //     echo "car is an array";
 // } else {
@@ -25,10 +44,12 @@ $x = 5;
 // // echo "<pre>";
 // print_r($car);
 // // echo "</pre>";
-echo "<pre>";
-print_r($car);
-echo "</pre>";
+// echo "<pre>";
+// print_r($car);
+// echo "</pre>";
 
+// echo count($car);
+// print_r(array_count_values($car));
 // echo "<pre>";
 // print_r(array_keys($car));
 // echo "</pre>";
