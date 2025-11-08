@@ -6,7 +6,6 @@
 //     $i++;
 // } while ($i <= 10);
 
-
 $i = 10;
 
 do {
@@ -54,19 +53,19 @@ do {
 //     echo "4. Division<br>";
 //     echo "5. Exit<br>";
 //     echo "============================<br>";
-
+    
 //     For demo purpose, we manually assign the choice.
 //     In real case, you can use readline() in CLI or $_POST in web form.
 //     $choice = rand(1, 5); // Simulate random user choice
-
+    
 //     echo "Your choice: $choice<br>";
-
+    
 //     if ($choice >= 1 && $choice <= 4) {
 //         $a = rand(1, 20);
 //         $b = rand(1, 20);
-
+        
 //         echo "Numbers: $a and $b<br>";
-
+        
 //         switch ($choice) {
 //             case 1:
 //                 echo "Addition: " . ($a + $b) . "<br>";
@@ -90,9 +89,12 @@ do {
 //                     } else {
 //                         echo "Invalid choice! Try again.<br>";
 //                     }
-
+                    
 //                     echo "<hr>";
-
+                    
 //                 } while ($choice != 5);
 
 //                 echo "Program ended.<br>";
+
+                
+        ?>
