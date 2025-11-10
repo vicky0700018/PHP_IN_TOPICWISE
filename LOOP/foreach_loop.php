@@ -19,8 +19,30 @@ echo "</pre>";
 // foreach ($arr as $key => $value) {
     
 // }
+
 foreach ($arr as $course => $fees) {
     echo "the fees of $course is Rs. $fees <\n>";
 
 }
+
+$fruits = ["Apple", "Banana", "Mango", "Orange"];
+
+foreach ($fruits as $fruit) {
+    echo $fruit . "<\n>";
+}
+
+
+
+$person = [
+    "name" => "Vicky",
+    "age" => 22,
+    "city" => "Delhi"
+];
+
+foreach ($person as $key => $value) {
+    echo $key . " : " . $value . "<\n>";
+}
+
+
+
 ?>
