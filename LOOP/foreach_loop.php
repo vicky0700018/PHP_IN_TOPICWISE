@@ -45,4 +45,16 @@ foreach ($person as $key => $value) {
 
 
 
+$students = [
+    ["name" => "Rohan", "marks" => 85],
+    ["name" => "Riya", "marks" => 90],
+    ["name" => "Aman", "marks" => 78]
+];
+
+foreach ($students as $student) {
+    echo "Name: " . $student['name'] . ", Marks: " . $student['marks'] . "<\n>";
+}
+
+
+
 ?>
