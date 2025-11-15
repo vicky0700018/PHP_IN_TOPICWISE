@@ -1,14 +1,18 @@
 <?php
-$i=1;
+$sum =0;
+$i =1;
 while($i<10){
-    if($i == 5){
+    $sum+=$i;
+    if($sum >10){
         break;
     }
     echo $i ."\n";
     $i++;
 }
+echo"-----------"."\n";
+echo $sum ."\n";
+echo"-----------"."\n";
 echo"loops end";
-
 
 
 
