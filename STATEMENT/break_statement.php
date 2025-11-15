@@ -17,10 +17,6 @@ echo"loops end";
 
 
 
-
-
-
-
 // What is break statement?
 // The break statement is used to break the execution of current loop or switch case.
 // As soon as it is encountered the flow of the program goes to next statement of loop or switch case.
