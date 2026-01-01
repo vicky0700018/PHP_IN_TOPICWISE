@@ -1,10 +1,10 @@
 <?php
-// for($i=10; $i>0; $i--)
-for ($i = 0; $i < 10; $i++) {
-    echo "vicky kumar /t";
-    echo $i . "<\n>";
-}
-echo "loop ends";
+// // for($i=10; $i>0; $i--)
+// for ($i = 0; $i < 10; $i++) {
+//     echo "vicky kumar /t";
+//     echo $i . "<\n>";
+// }
+// echo "loop ends";
 
 
 // $fruits = ["Apple", "Banana", "Cherry", "Mango"];
