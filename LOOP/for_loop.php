@@ -7,14 +7,15 @@
 // echo "loop ends";
 
 
-$fruits = ["Apple", "Banana", "Cherry", "Mango"];
+// $fruits = ["Apple", "Banana", "Cherry", "Mango"];
 
-for ($i = 0; $i < count($fruits); $i++) {
-    echo "Fruit: " . $fruits[$i] . "<\n>";
-    echo "Index: " . $i . "<\n>";
-}
+// for ($i = 0; $i < count($fruits); $i++) {
+//     echo "Fruit: " . $fruits[$i] . "<\n>";
+//     echo "Index: " . $i . "<\n>";
+// }
 
-
+// for ($i = 1; $i <= 10; $i++) {
+//   echo "square of $i is " . ($i * $i) . "<\n>";
 // for ($i = 2; $i <= 10; $i += 2) {
 //     echo "Even number: $i . <\n>";
 // }
