@@ -14,11 +14,11 @@
 //     echo "Index: " . $i . "<\n>";
 // }
 
-// for ($i = 1; $i <= 10; $i++) {
-//   echo "square of $i is " . ($i * $i) . "<\n>";
-// for ($i = 2; $i <= 10; $i += 2) {
-//     echo "Even number: $i . <\n>";
-// }
+for ($i = 1; $i <= 10; $i++) 
+  echo "square of $i is " . ($i * $i) . "<\n>";
+for ($i = 2; $i <= 10; $i += 2) {
+    echo "Even number: $i . <\n>";
+}
 
 
 
