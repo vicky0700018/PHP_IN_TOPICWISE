@@ -20,9 +20,6 @@ for ($i = 2; $i <= 10; $i += 2) {
     echo "Even number: $i . <\n>";
 }
 
-
-
-
 // // syntex  in for_loop
 // for(initialization; test_condition; +ement/-ement)
 //     {
