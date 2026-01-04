@@ -5,36 +5,36 @@ echo "<h1>========== PHP LOOPS PRACTICE ==========</h1>";
 // ================================================================
 // 1️⃣ WHILE LOOP - Entry Control Loop
 // ================================================================
-// echo "<h2>1. WHILE LOOP</h2>";
+echo "<h2>1. WHILE LOOP</h2>";
 
-// echo "<h3>Example 1: Simple Counter</h3>";
-// $i = 1;
-// while ($i <= 5) {
-//     echo "Count: $i <br>";
-//     $i++;
-// }
+echo "<h3>Example 1: Simple Counter</h3>";
+$i = 1;
+while ($i <= 5) {
+    echo "Count: $i <br>";
+    $i++;
+}
 
-// echo "<h3>Example 2: Multiplication Table</h3>";
-// $num = 2;
-// $i = 1;
-// while ($i <= 10) {
-//     echo $num . " x " . $i . " = " . ($i * $num) . "<br>";
-//     $i++;
-// }
+echo "<h3>Example 2: Multiplication Table</h3>";
+$num = 2;
+$i = 1;
+while ($i <= 10) {
+    echo $num . " x " . $i . " = " . ($i * $num) . "<br>";
+    $i++;
+}
 
-// echo "<h3>Example 3: Print Even Numbers</h3>";
-// $i = 0;
-// while ($i <= 20) {
-//     echo "Even: $i <br>";
-//     $i += 2;
-// }
+echo "<h3>Example 3: Print Even Numbers</h3>";
+$i = 0;
+while ($i <= 20) {
+    echo "Even: $i <br>";
+    $i += 2;
+}
 
-// echo "<h3>Example 4: Print Table of 7</h3>";
-// $i = 1;
-// while ($i <= 10) {
-//     echo "7 x $i = " . (7 * $i) . "<br>";
-//     $i++;
-// }
+echo "<h3>Example 4: Print Table of 7</h3>";
+$i = 1;
+while ($i <= 10) {
+    echo "7 x $i = " . (7 * $i) . "<br>";
+    $i++;
+}
 
 
 // ================================================================
