@@ -40,29 +40,29 @@ echo "<h1>========== PHP LOOPS PRACTICE ==========</h1>";
 // ================================================================
 // 2️⃣ DO-WHILE LOOP - Exit Control Loop
 // ================================================================
-echo "<hr><h2>2. DO-WHILE LOOP</h2>";
+// echo "<hr><h2>2. DO-WHILE LOOP</h2>";
 
-echo "<h3>Example 1: Simple Counter (runs at least once)</h3>";
-$i = 1;
+// echo "<h3>Example 1: Simple Counter (runs at least once)</h3>";
+// $i = 1;
+// do {
+//     echo "Do-While Count: $i <br>";
+//     echo "this will print at least once even if condition is false.<br>";
+//     $i++;
+// } while ($i <= 5);
+
+echo "<h3>Example 2: Print Hello 3 times</h3>";
+$count = 1;
 do {
-    echo "Do-While Count: $i <br>";
-    echo "this will print at least once even if condition is false.<br>";
-    $i++;
-} while ($i <= 5);
+    echo "Hello $count <br>";
+    $count++;
+} while ($count <= 3);
 
-// echo "<h3>Example 2: Print Hello 3 times</h3>";
-// $count = 1;
-// do {
-//     echo "Hello $count <br>";
-//     $count++;
-// } while ($count <= 3);
-
-// echo "<h3>Example 3: Countdown from 5</h3>";
-// $i = 5;
-// do {
-//     echo "Countdown: $i <br>";
-//     $i--;
-// } while ($i > 0);
+echo "<h3>Example 3: Countdown from 5</h3>";
+$i = 5;
+do {
+    echo "Countdown: $i <br>";
+    $i--;
+} while ($i > 0);
 
 // echo "<h3>Example 4: Table of 5 using Do-While</h3>";
 // $i = 1;
